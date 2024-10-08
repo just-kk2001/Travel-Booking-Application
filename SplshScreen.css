@@ -1,0 +1,35 @@
+
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1f3632, #1f274a);
+  }
+  
+  .splash-logo {
+    text-align: center;
+  }
+  
+  .logo-animation {
+    width: 150px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .app-title {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
